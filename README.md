@@ -29,11 +29,11 @@ The JSON response contains all of the following stats:
 + Staff Ethnicity/Race
 + Staff "Gender"
 
-Facility Endpoint:
+Residential Reentry Facility (Halfway House) Endpoint:
 ------------------
 https://www.bop.gov/coronavirus/data/additional.json
 
-*Information for individual facilities*
+*Information for individual RRC facilities*
 + Name
 + Address
 + Bed Count (w/ male and female breakdown)
@@ -46,7 +46,7 @@ https://www.bop.gov/coronavirus/json/final.json
 + City
 + Inmate Deaths
 + Inmate Recoveries
-+ Inmates Having Tested Positive
-+ Staff Having Tested Positive
++ Inmates Testing Positive
++ Staff Testing Positive
 + Staff Recoveries
 + Staff Death Amount
