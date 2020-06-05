@@ -2,6 +2,7 @@
 
 I started to create a scraper for statistics section of BOP's website, but then after some exploration I managed to dig up some of the bop.gov's API endpoints.
 
+
 Quick Facts Enpoint:
 --------------------
 
@@ -29,14 +30,29 @@ The JSON response contains all of the following stats:
 + Staff Ethnicity/Race
 + Staff "Gender"
 
-Residential Reentry Facility (Halfway House) Endpoint:
+
+Location Endpoint:
 ------------------
+https://www.bop.gov/coronavirus/data/locations.json
+
+*Information about FOB Facilities*
++ Name
++ Address
++ Location Types (Institution, Regional Office, Residential Reentry Mangement)
++ Gender
++ Private Facility (T/F)
++ Security Level
+
+
+Residential Reentry Facility (Halfway House) Endpoint:
+------------------------------------------------------
 https://www.bop.gov/coronavirus/data/additional.json
 
 *Information for individual RRC facilities*
 + Name
 + Address
 + Bed Count (w/ male and female breakdown)
+
 
 Corona Virus Endpoint:
 ----------------------
