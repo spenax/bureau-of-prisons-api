@@ -1,4 +1,4 @@
-# Bureau of Prison API
+# Bureau of Prisons API
 
 I started to create a scraper for statistics section of BOP's website, but then after some exploration I managed to dig up some of the bop.gov's API endpoints.
 
