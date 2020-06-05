@@ -1,6 +1,9 @@
 # Bureau of Prison API
 
-I started to create a scraper for statistics section of BOP's website, but then after some exploration I managed to dig up the site's API.
+I started to create a scraper for statistics section of BOP's website, but then after some exploration I managed to dig up some of the bop.gov's API endpoints.
+
+Quick Facts Enpoint:
+--------------------
 
 https://www.bop.gov/PublicInfo/execute/quickfacts?todo=query&output=json
 
@@ -26,5 +29,24 @@ The JSON response contains all of the following stats:
 + Staff Ethnicity/Race
 + Staff "Gender"
 
-For more info:
-https://www.bop.gov/about/statistics/
+Facility Endpoint:
+------------------
+https://www.bop.gov/coronavirus/data/additional.json
+
+*Information for individual facilities*
++ Name
++ Address
++ Bed Count (w/ male and female breakdown)
+
+Corona Virus Endpoint:
+----------------------
+https://www.bop.gov/coronavirus/json/final.json
+
+*Reported Corona Virus Stats by Facility:*
++ City
++ Inmate Deaths
++ Inmate Recoveries
++ Inmates Having Tested Positive
++ Staff Having Tested Positive
++ Staff Recoveries
++ Staff Death Amount
